@@ -1,0 +1,50 @@
+#calculate   {
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#calculate > div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#calculate > div:not(#th_row) {
+    border-right-style: dashed;
+    border-right-color: rgba(0,0,0,0.5);
+}
+
+.button {
+    border-style: solid;
+    height: 15%;
+    margin: auto;
+}
+
+.sleep {
+    border-style: solid;
+    height: 18.5%;
+    margin: auto;
+    width: 40vw;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+button {
+  width: 6vw;
+  height: 6vh;
+}
+
+#answer {
+    margin:auto;
+    margin-top: 50px;
+    border-style: solid;
+    width: 30.25vw;
+}
